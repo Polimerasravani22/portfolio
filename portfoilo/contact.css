@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  background-color: cadetblue;
+}
+.nav-right ul {
+  list-style-type: none;
+}
+.nav-right {
+  float: right;
+}
+ul li {
+  float: left;
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  line-height: 40px;
+  text-decoration: none;
+}
+ul li a {
+  font-family: cursive;
+  color: black;
+  display: block;
+  text-decoration: none;
+  opacity: 1;
+  font-weight: bold;
+}
+ul li a:hover {
+  color: white;
+  opacity: 0.8;
+  border-radius: 50%;
+  zoom: 12px;
+}
+
+.display-5 {
+  font-family: cursive;
+}
+.au {
+  margin-top: 0;
+}
+.left {
+  padding-top: 180px;
+  padding-left: 151px;
+  font-family: cursive;
+  float: left;
+}
+.right {
+  font-family: cursive;
+  float: right;
+  padding-top: 220px;
+  padding-left: 120px;
+  text-align: center;
+  mix-blend-mode: multiply;
+}
+footer {
+  display: inline-flex;
+  padding-top: 200px;
+  padding-left: 100px;
+  gap: 350px;
+  font-family: cursive;
+}
+.under a {
+  height: 44px;
+  width: 44px;
+  background-color: darkmagenta;
+  color: #ddd;
+  margin: 0 8px 8px 0;
+  text-align: center;
+  transition: 0.4s;
+  line-height: 44px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.under a:hover {
+  color: black;
+  background-color: #fff;
+}
+@media screen and (max-width: 650px) {
+  * {
+    grid-template-columns: repeat 1fr;
+    padding: 2rem 50px;
+  }
+}
